@@ -1,0 +1,789 @@
+
+12/26 15:40:09: Launching 'app' on Pixel 4 API 30.
+Install successfully finished in 391 ms.
+$ adb shell am start -n "com.vinhdn.rsocketandroid/com.vinhdn.rsocketandroid.MainActivity" -a android.intent.action.MAIN -c android.intent.category.LAUNCHER
+Connected to process 19211 on device 'Pixel_4_API_30 [emulator-5554]'.
+Capturing and displaying logcat messages from application. This behavior can be disabled in the "Logcat output" section of the "Debugger" settings page.
+W/.rsocketandroi: Current dex file has more than one class in it. Calling RetransformClasses on this class might fail if no transformations are applied to it!
+    Accessing hidden method Landroid/app/ResourcesManager;-><init>()V (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResConfiguration:Landroid/content/res/Configuration; (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResourceImpls:Landroid/util/ArrayMap; (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResourceReferences:Ljava/util/ArrayList; (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResourcesReferencesQueue:Ljava/lang/ref/ReferenceQueue; (blacklist, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mLoadedApkAssets:Landroid/util/LruCache; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mActivityResourceReferences:Ljava/util/WeakHashMap; (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mAdjustedDisplays:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+W/.rsocketandroi: Accessing hidden method Landroid/app/ResourcesManager$UpdateHandler;-><init>(Landroid/app/ResourcesManager;Landroid/app/ResourcesManager$1;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->access$200(Landroid/app/ResourcesManager;Landroid/content/res/ResourcesImpl;)Landroid/content/res/ResourcesKey; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findKeyForResourceImplLocked(Landroid/content/res/ResourcesImpl;)Landroid/content/res/ResourcesKey; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->access$300(Landroid/app/ResourcesManager;Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->access$400(Landroid/app/ResourcesManager;)Landroid/util/ArrayMap; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->access$500(Landroid/app/ResourcesManager;Landroid/util/ArrayMap;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->redirectResourcesToNewImplLocked(Landroid/util/ArrayMap;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyConfigurationToResourcesLocked(Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;Landroid/content/res/Configuration;Landroid/content/res/ResourcesKey;Landroid/content/res/ResourcesImpl;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;->hasOverrideConfiguration()Z (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyNonDefaultDisplayMetricsToConfiguration(Landroid/util/DisplayMetrics;Landroid/content/res/Configuration;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/Configuration;->resetScreenLayout(I)I (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->cleanupReferences(Ljava/util/ArrayList;Ljava/lang/ref/ReferenceQueue;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/-$$Lambda$ResourcesManager$JPMYJ3O5qlFN-c1356pr2ximEb0;-><init>(Ljava/util/HashSet;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->countLiveReferences(Ljava/util/Collection;)I (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createResources(Landroid/os/IBinder;Landroid/content/res/ResourcesKey;Ljava/lang/ClassLoader;)Landroid/content/res/Resources; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createResourcesForActivityLocked(Landroid/os/IBinder;Ljava/lang/ClassLoader;Landroid/content/res/ResourcesImpl;Landroid/content/res/CompatibilityInfo;)Landroid/content/res/Resources; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getOrCreateActivityResourcesStructLocked(Landroid/os/IBinder;)Landroid/app/ResourcesManager$ActivityResources; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createResourcesImpl(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mOverrideConfiguration:Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/view/DisplayAdjustments;-><init>(Landroid/content/res/Configuration;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createResourcesLocked(Ljava/lang/ClassLoader;Landroid/content/res/ResourcesImpl;Landroid/content/res/CompatibilityInfo;)Landroid/content/res/Resources; (blacklist, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResourcesReferencesQueue:Ljava/lang/ref/ReferenceQueue; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->cleanupReferences(Ljava/util/ArrayList;Ljava/lang/ref/ReferenceQueue;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findKeyForResourceImplLocked(Landroid/content/res/ResourcesImpl;)Landroid/content/res/ResourcesKey; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findResourcesForActivityLocked(Landroid/os/IBinder;Landroid/content/res/ResourcesKey;Ljava/lang/ClassLoader;)Landroid/content/res/Resources; (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getOrCreateActivityResourcesStructLocked(Landroid/os/IBinder;)Landroid/app/ResourcesManager$ActivityResources; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesImpl;->getAssets()Landroid/content/res/AssetManager; (greylist, linking, allowed)
+    Accessing hidden method Landroid/content/res/AssetManager;->isUpToDate()Z (greylist, linking, allowed)
+    Accessing hidden method Landroid/app/ResourcesManager;->generateConfig(Landroid/content/res/ResourcesKey;Landroid/util/DisplayMetrics;)Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mDisplayId:I (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;->hasOverrideConfiguration()Z (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;->hasOverrideConfiguration()Z (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getAdjustedDisplay(ILandroid/view/DisplayAdjustments;)Landroid/view/Display; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/view/DisplayAdjustments;-><init>(Landroid/view/DisplayAdjustments;)V (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mAdjustedDisplays:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/hardware/display/DisplayManagerGlobal;->getInstance()Landroid/hardware/display/DisplayManagerGlobal; (greylist, linking, allowed)
+    Accessing hidden method Landroid/hardware/display/DisplayManagerGlobal;->getCompatibleDisplay(ILandroid/view/DisplayAdjustments;)Landroid/view/Display; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getInstance()Landroid/app/ResourcesManager; (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->sResourcesManager:Landroid/app/ResourcesManager; (greylist-max-o, linking, denied)
+I/chatty: uid=10172(com.vinhdn.rsocketandroid) re-initialized> identical 1 line
+W/.rsocketandroi: Accessing hidden field Landroid/app/ResourcesManager;->sResourcesManager:Landroid/app/ResourcesManager; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getOrCreateActivityResourcesStructLocked(Landroid/os/IBinder;)Landroid/app/ResourcesManager$ActivityResources; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager$ActivityResources;-><init>(Landroid/app/ResourcesManager$1;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->lambda$cleanupReferences$0(Ljava/util/HashSet;Ljava/lang/ref/WeakReference;)Z (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->loadApkAssets(Ljava/lang/String;ZZ)Landroid/content/res/ApkAssets; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager$ApkKey;-><init>(Ljava/lang/String;ZZ)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->overlayPathToIdmapPath(Ljava/lang/String;)Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->rebaseActivityOverrideConfig(Landroid/content/res/Resources;Landroid/content/res/Configuration;Landroid/content/res/Configuration;I)Landroid/content/res/ResourcesKey; (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/res/Resources;->getImpl()Landroid/content/res/ResourcesImpl; (greylist, linking, allowed)
+    Accessing hidden method Landroid/app/ResourcesManager;->findKeyForResourceImplLocked(Landroid/content/res/ResourcesImpl;)Landroid/content/res/ResourcesKey; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->rebaseKeyForActivity(Landroid/os/IBinder;Landroid/content/res/ResourcesKey;)V (blacklist, linking, denied)
+W/.rsocketandroi: Accessing hidden method Landroid/app/ResourcesManager;->getOrCreateActivityResourcesStructLocked(Landroid/os/IBinder;)Landroid/app/ResourcesManager$ActivityResources; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->redirectResourcesToNewImplLocked(Landroid/util/ArrayMap;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ActivityResources;->activityResources:Ljava/util/ArrayList; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ActivityResources;->activityResources:Ljava/util/ArrayList; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ActivityResources;->activityResources:Ljava/util/ArrayList; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->updateActivityResources(Landroid/content/res/Resources;Landroid/content/res/ResourcesKey;Z)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createResourcesImpl(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->findOrCreateResourcesImplForKeyLocked(Landroid/content/res/ResourcesKey;)Landroid/content/res/ResourcesImpl; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->appendLibAssetForMainAssetPath(Ljava/lang/String;Ljava/lang/String;)V (greylist, linking, allowed)
+    Accessing hidden method Landroid/app/ResourcesManager;->appendLibAssetsForMainAssetPath(Ljava/lang/String;[Ljava/lang/String;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->appendLibAssetsForMainAssetPath(Ljava/lang/String;[Ljava/lang/String;)V (blacklist, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mResDir:Ljava/lang/String; (greylist, linking, allowed)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mLibDirs:[Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden method Lcom/android/internal/util/ArrayUtils;->appendElement(Ljava/lang/Class;[Ljava/lang/Object;Ljava/lang/Object;)[Ljava/lang/Object; (greylist, linking, allowed)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mLibDirs:[Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mSplitResDirs:[Ljava/lang/String; (greylist, linking, allowed)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mOverlayDirs:[Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mDisplayId:I (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mOverrideConfiguration:Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mCompatInfo:Landroid/content/res/CompatibilityInfo; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mLoaders:[Landroid/content/res/loader/ResourcesLoader; (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;-><init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;[Landroid/content/res/loader/ResourcesLoader;)V (blacklist, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mLibDirs:[Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mLibDirs:[Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mOverlayDirs:[Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mDisplayId:I (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mOverrideConfiguration:Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mCompatInfo:Landroid/content/res/CompatibilityInfo; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/content/res/ResourcesKey;->mLoaders:[Landroid/content/res/loader/ResourcesLoader; (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;-><init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;[Landroid/content/res/loader/ResourcesLoader;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->redirectResourcesToNewImplLocked(Landroid/util/ArrayMap;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyCompatConfigurationLocked(ILandroid/content/res/Configuration;)Z (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResCompatibilityInfo:Landroid/content/res/CompatibilityInfo; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/CompatibilityInfo;->supportsScreen()Z (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mResCompatibilityInfo:Landroid/content/res/CompatibilityInfo; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/CompatibilityInfo;->applyToConfiguration(ILandroid/content/res/Configuration;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyConfigurationToResources(Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Z (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyConfigurationToResourcesLocked(Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Z (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyConfigurationToResourcesLocked(Landroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;)Z (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/Configuration;->isOtherSeqNewer(Landroid/content/res/Configuration;)Z (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->applyNewResourceDirsLocked(Landroid/content/pm/ApplicationInfo;[Ljava/lang/String;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/pm/ApplicationInfo;->getBaseCodePath()Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createAssetManager(Landroid/content/res/ResourcesKey;)Landroid/content/res/AssetManager; (greylist, linking, allowed)
+    Accessing hidden method Landroid/content/res/AssetManager$Builder;-><init>()V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->createBaseTokenResources(Landroid/os/IBinder;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;Ljava/lang/ClassLoader;Ljava/util/List;)Landroid/content/res/Resources; (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;-><init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;[Landroid/content/res/loader/ResourcesLoader;)V (blacklist, linking, denied)
+I/chatty: uid=10172(com.vinhdn.rsocketandroid) identical 1 line
+W/.rsocketandroi: Accessing hidden method Landroid/content/res/ResourcesKey;-><init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;[Landroid/content/res/loader/ResourcesLoader;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->dump(Ljava/lang/String;Ljava/io/PrintWriter;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Lcom/android/internal/util/IndentingPrintWriter;-><init>(Ljava/io/Writer;Ljava/lang/String;)V (greylist, linking, allowed)
+    Accessing hidden method Lcom/android/internal/util/IndentingPrintWriter;->increaseIndent()Lcom/android/internal/util/IndentingPrintWriter; (greylist, linking, allowed)
+    Accessing hidden field Landroid/app/ResourcesManager;->mLoadedApkAssets:Landroid/util/LruCache; (greylist-max-o, linking, denied)
+I/chatty: uid=10172(com.vinhdn.rsocketandroid) identical 5 lines
+W/.rsocketandroi: Accessing hidden field Landroid/app/ResourcesManager;->mLoadedApkAssets:Landroid/util/LruCache; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->countLiveReferences(Ljava/util/Collection;)I (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->countLiveReferences(Ljava/util/Collection;)I (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getAdjustedDisplay(ILandroid/content/res/Resources;)Landroid/view/Display; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/hardware/display/DisplayManagerGlobal;->getCompatibleDisplay(ILandroid/content/res/Resources;)Landroid/view/Display; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getConfiguration()Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getDisplayMetrics()Landroid/util/DisplayMetrics; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/view/DisplayAdjustments;->DEFAULT_DISPLAY_ADJUSTMENTS:Landroid/view/DisplayAdjustments; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getDisplayMetrics(ILandroid/view/DisplayAdjustments;)Landroid/util/DisplayMetrics; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getDisplayMetrics(ILandroid/view/DisplayAdjustments;)Landroid/util/DisplayMetrics; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getAdjustedDisplay(ILandroid/view/DisplayAdjustments;)Landroid/view/Display; (greylist-max-o, linking, denied)
+W/.rsocketandroi: Accessing hidden method Landroid/app/ResourcesManager;->getResources(Landroid/os/IBinder;Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;Ljava/lang/ClassLoader;Ljava/util/List;)Landroid/content/res/Resources; (blacklist, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;-><init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;[Landroid/content/res/loader/ResourcesLoader;)V (blacklist, linking, denied)
+I/chatty: uid=10172(com.vinhdn.rsocketandroid) identical 1 line
+W/.rsocketandroi: Accessing hidden method Landroid/content/res/ResourcesKey;-><init>(Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;[Ljava/lang/String;ILandroid/content/res/Configuration;Landroid/content/res/CompatibilityInfo;[Landroid/content/res/loader/ResourcesLoader;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->invalidatePath(Ljava/lang/String;)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/ResourcesKey;->isPathReferenced(Ljava/lang/String;)Z (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ApkKey;->path:Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/ApkAssets;->close()V (blacklist, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ApkKey;->path:Ljava/lang/String; (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager;->mCachedApkAssets:Landroid/util/ArrayMap; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/ApkAssets;->close()V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->isSameResourcesOverrideConfig(Landroid/os/IBinder;Landroid/content/res/Configuration;)Z (greylist-max-o, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ActivityResources;->overrideConfig:Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+I/chatty: uid=10172(com.vinhdn.rsocketandroid) identical 1 line
+W/.rsocketandroi: Accessing hidden field Landroid/app/ResourcesManager$ActivityResources;->overrideConfig:Landroid/content/res/Configuration; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/Configuration;->diffPublicOnly(Landroid/content/res/Configuration;)I (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->overrideTokenDisplayAdjustments(Landroid/os/IBinder;Ljava/util/function/Consumer;)Z (blacklist, linking, denied)
+    Accessing hidden field Landroid/app/ResourcesManager$ActivityResources;->activityResources:Ljava/util/ArrayList; (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/content/res/Resources;->overrideDisplayAdjustments(Ljava/util/function/Consumer;)V (blacklist, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->updateResourcesForActivity(Landroid/os/IBinder;Landroid/content/res/Configuration;IZ)V (greylist-max-o, linking, denied)
+    Accessing hidden method Landroid/app/ResourcesManager;->getOrCreateActivityResourcesStructLocked(Landroid/os/IBinder;)Landroid/app/ResourcesManager$ActivityResources; (greylist-max-o, linking, denied)
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/NetworkSecurityConfig: No Network Security Config specified, using platform default
+D/libEGL: loaded /vendor/lib64/egl/libEGL_emulation.so
+D/libEGL: loaded /vendor/lib64/egl/libGLESv1_CM_emulation.so
+D/libEGL: loaded /vendor/lib64/egl/libGLESv2_emulation.so
+W/.rsocketandroi: Accessing hidden method Landroid/view/View;->computeFitSystemWindows(Landroid/graphics/Rect;Landroid/graphics/Rect;)Z (greylist, reflection, allowed)
+    Accessing hidden method Landroid/view/ViewGroup;->makeOptionalFitsSystemWindows()V (greylist, reflection, allowed)
+D/HostConnection: HostConnection::get() New Host Connection established 0xb400007d7c0a3790, tid 19233
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_0
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/EGL_emulation: eglCreateContext: 0xb400007d6c0c5fa0: maj 3 min 0 rcv 3
+D/EGL_emulation: eglMakeCurrent: 0xb400007d6c0c5fa0: ver 3 0 (tinfo 0xb400007d0c1ac590) (first time)
+I/Gralloc4: mapper 4.x is not supported
+W/System.err: SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+    SLF4J: Defaulting to no-operation (NOP) logger implementation
+    SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+D/HostConnection: createUnique: call
+D/HostConnection: HostConnection::get() New Host Connection established 0xb400007d7c0a5350, tid 19233
+D/goldfish-address-space: allocate: Ask for block of size 0x100
+    allocate: ioctl allocate returned offset 0x1f3ff8000 size 0x8000
+D/HostConnection: HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_async_unmap_buffer ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object GL_KHR_texture_compression_astc_ldr ANDROID_EMU_host_side_tracing ANDROID_EMU_async_frame_commands ANDROID_EMU_gles_max_version_3_0
+W/System: A resource failed to call close.
+I/System.out: stream take 0
+I/System.out: stream take 1
+I/System.out: stream take 2
+I/System.out: stream take 3
+I/System.out: stream take 4
+I/System.out: stream take 5
+I/System.out: stream take 6
+I/System.out: stream take 7
+I/System.out: stream take 8
+I/System.out: stream take 9
+I/System.out: stream take 10
+I/System.out: stream take 11
+I/System.out: stream take 12
+I/System.out: stream take 13
+I/System.out: stream take 14
+I/System.out: stream take 15
+I/System.out: stream take 16
+I/System.out: stream take 17
+I/System.out: stream take 18
+I/System.out: stream take 19
+I/System.out: stream take 20
+I/System.out: stream take 21
+I/System.out: stream take 22
+I/System.out: stream take 23
+I/System.out: stream take 24
+I/System.out: stream take 25
+I/System.out: stream take 26
+I/System.out: stream take 27
+I/System.out: stream take 28
+I/System.out: stream take 29
+I/System.out: stream take 30
+I/System.out: stream take 31
+I/System.out: stream take 32
+I/System.out: stream take 33
+I/System.out: stream take 34
+I/System.out: stream take 35
+I/System.out: stream take 36
+I/System.out: stream take 37
+I/System.out: stream take 38
+I/System.out: stream take 39
+I/System.out: stream take 40
+I/System.out: stream take 41
+I/System.out: stream take 42
+I/System.out: stream take 43
+I/System.out: stream take 44
+I/System.out: stream take 45
+I/System.out: stream take 46
+I/System.out: stream take 47
+I/System.out: stream take 48
+I/System.out: stream take 49
+I/System.out: stream take 50
+I/System.out: stream take 51
+I/System.out: stream take 52
+I/System.out: stream take 53
+I/System.out: stream take 54
+I/System.out: stream take 55
+I/System.out: stream take 56
+I/System.out: stream take 57
+I/System.out: stream take 58
+I/System.out: stream take 59
+I/System.out: stream take 60
+I/System.out: stream take 61
+I/System.out: stream take 62
+I/System.out: stream take 63
+I/System.out: stream take 64
+I/System.out: stream take 65
+I/System.out: stream take 66
+I/System.out: stream take 67
+I/System.out: stream take 68
+I/System.out: stream take 69
+I/System.out: stream take 70
+I/System.out: stream take 71
+I/System.out: stream take 72
+I/System.out: stream take 73
+I/System.out: stream take 74
+I/System.out: stream take 75
+I/System.out: stream take 76
+I/System.out: stream take 77
+I/System.out: stream take 78
+I/System.out: stream take 79
+I/System.out: stream take 80
+I/System.out: stream take 81
+I/System.out: stream take 82
+I/System.out: stream take 83
+I/System.out: stream take 84
+I/System.out: stream take 85
+I/System.out: stream take 86
+I/System.out: stream take 87
+I/System.out: stream take 88
+I/System.out: stream take 89
+I/System.out: stream take 90
+I/System.out: stream take 91
+I/System.out: stream take 92
+I/System.out: stream take 93
+I/System.out: stream take 94
+I/System.out: stream take 95
+I/System.out: stream take 96
+I/System.out: stream take 97
+I/System.out: stream take 98
+I/System.out: stream take 99
+I/System.out: stream take 100
+I/System.out: stream take 101
+I/System.out: stream take 102
+I/System.out: stream take 103
+I/System.out: stream take 104
+I/System.out: stream take 105
+I/System.out: stream take 106
+I/System.out: stream take 107
+I/System.out: stream take 108
+I/System.out: stream take 109
+I/System.out: stream take 110
+I/System.out: stream take 111
+I/System.out: stream take 112
+I/System.out: stream take 113
+I/System.out: stream take 114
+I/System.out: stream take 115
+I/System.out: stream take 116
+I/System.out: stream take 117
+I/System.out: stream take 118
+I/System.out: stream take 119
+I/System.out: stream take 120
+I/System.out: stream take 121
+I/System.out: stream take 122
+I/System.out: stream take 123
+I/System.out: stream take 124
+I/System.out: stream take 125
+I/System.out: stream take 126
+I/System.out: stream take 127
+I/System.out: stream take 128
+I/System.out: stream take 129
+I/System.out: stream take 130
+I/System.out: stream take 131
+I/System.out: stream take 132
+I/System.out: stream take 133
+I/System.out: stream take 134
+I/System.out: stream take 135
+I/System.out: stream take 136
+I/System.out: stream take 137
+I/System.out: stream take 138
+I/System.out: stream take 139
+I/System.out: stream take 140
+I/System.out: stream take 141
+I/System.out: stream take 142
+I/System.out: stream take 143
+I/System.out: stream take 144
+I/System.out: stream take 145
+I/System.out: stream take 146
+I/System.out: stream take 147
+I/System.out: stream take 148
+I/System.out: stream take 149
+I/System.out: stream take 150
+I/System.out: stream take 151
+I/System.out: stream take 152
+I/System.out: stream take 153
+I/System.out: stream take 154
+I/System.out: stream take 155
+I/System.out: stream take 156
+I/System.out: stream take 157
+I/System.out: stream take 158
+I/System.out: stream take 159
+I/System.out: stream take 160
+I/System.out: stream take 161
+I/System.out: stream take 162
+I/System.out: stream take 163
+I/System.out: stream take 164
+I/System.out: stream take 165
+I/System.out: stream take 166
+I/System.out: stream take 167
+I/System.out: stream take 168
+I/System.out: stream take 169
+I/System.out: stream take 170
+I/System.out: stream take 171
+I/System.out: stream take 172
+I/System.out: stream take 173
+I/System.out: stream take 174
+I/System.out: stream take 175
+I/System.out: stream take 176
+I/System.out: stream take 177
+I/System.out: stream take 178
+I/System.out: stream take 179
+I/System.out: stream take 180
+I/System.out: stream take 181
+I/System.out: stream take 182
+I/System.out: stream take 183
+I/System.out: stream take 184
+I/System.out: stream take 185
+I/System.out: stream take 186
+I/System.out: stream take 187
+I/System.out: stream take 188
+I/System.out: stream take 189
+I/System.out: stream take 190
+I/System.out: stream take 191
+I/System.out: stream take 192
+I/System.out: stream take 193
+I/System.out: stream take 194
+I/System.out: stream take 195
+I/System.out: stream take 196
+I/System.out: stream take 197
+I/System.out: stream take 198
+I/System.out: stream take 199
+I/System.out: stream take 200
+I/System.out: stream take 201
+I/System.out: stream take 202
+I/System.out: stream take 203
+I/System.out: stream take 204
+I/System.out: stream take 205
+I/System.out: stream take 206
+I/System.out: stream take 207
+I/System.out: stream take 208
+I/System.out: stream take 209
+I/System.out: stream take 210
+I/System.out: stream take 211
+I/System.out: stream take 212
+I/System.out: stream take 213
+I/System.out: stream take 214
+I/System.out: stream take 215
+I/System.out: stream take 216
+I/System.out: stream take 217
+I/System.out: stream take 218
+I/System.out: stream take 219
+I/System.out: stream take 220
+I/System.out: stream take 221
+I/System.out: stream take 222
+I/System.out: stream take 223
+I/System.out: stream take 224
+I/System.out: stream take 225
+I/System.out: stream take 226
+I/System.out: stream take 227
+I/System.out: stream take 228
+I/System.out: stream take 229
+I/System.out: stream take 230
+I/System.out: stream take 231
+I/System.out: stream take 232
+I/System.out: stream take 233
+I/System.out: stream take 234
+I/System.out: stream take 235
+I/System.out: stream take 236
+I/System.out: stream take 237
+I/System.out: stream take 238
+I/System.out: stream take 239
+I/System.out: stream take 240
+I/System.out: stream take 241
+I/System.out: stream take 242
+I/System.out: stream take 243
+I/System.out: stream take 244
+I/System.out: stream take 245
+I/System.out: stream take 246
+I/System.out: stream take 247
+I/System.out: stream take 248
+I/System.out: stream take 249
+I/System.out: stream take 250
+I/System.out: stream take 251
+I/System.out: stream take 252
+I/System.out: stream take 253
+I/System.out: stream take 254
+I/System.out: stream take 255
+I/System.out: stream take 256
+I/System.out: stream take 257
+I/System.out: stream take 258
+I/System.out: stream take 259
+I/System.out: stream take 260
+I/System.out: stream take 261
+I/System.out: stream take 262
+I/System.out: stream take 263
+I/System.out: stream take 264
+I/System.out: stream take 265
+I/System.out: stream take 266
+I/System.out: stream take 267
+I/System.out: stream take 268
+I/System.out: stream take 269
+I/System.out: stream take 270
+I/System.out: stream take 271
+I/System.out: stream take 272
+I/System.out: stream take 273
+I/System.out: stream take 274
+I/System.out: stream take 275
+I/System.out: stream take 276
+I/System.out: stream take 277
+I/System.out: stream take 278
+I/System.out: stream take 279
+I/System.out: stream take 280
+I/System.out: stream take 281
+I/System.out: stream take 282
+I/System.out: stream take 283
+I/System.out: stream take 284
+I/System.out: stream take 285
+I/System.out: stream take 286
+I/System.out: stream take 287
+I/System.out: stream take 288
+I/System.out: stream take 289
+I/System.out: stream take 290
+I/System.out: stream take 291
+I/System.out: stream take 292
+I/System.out: stream take 293
+I/System.out: stream take 294
+I/System.out: stream take 295
+I/System.out: stream take 296
+I/System.out: stream take 297
+I/System.out: stream take 298
+I/System.out: stream take 299
+I/System.out: stream take 300
+I/System.out: stream take 301
+I/System.out: stream take 302
+I/System.out: stream take 303
+I/System.out: stream take 304
+I/System.out: stream take 305
+I/System.out: stream take 306
+I/System.out: stream take 307
+I/System.out: stream take 308
+I/System.out: stream take 309
+I/System.out: stream take 310
+I/System.out: stream take 311
+I/System.out: stream take 312
+I/System.out: stream take 313
+I/System.out: stream take 314
+I/System.out: stream take 315
+I/System.out: stream take 316
+I/System.out: stream take 317
+I/System.out: stream take 318
+I/System.out: stream take 319
+I/System.out: stream take 320
+I/System.out: stream take 321
+I/System.out: stream take 322
+I/System.out: stream take 323
+I/System.out: stream take 324
+I/System.out: stream take 325
+I/System.out: stream take 326
+I/System.out: stream take 327
+I/System.out: stream take 328
+I/System.out: stream take 329
+I/System.out: stream take 330
+I/System.out: stream take 331
+I/System.out: stream take 332
+I/System.out: stream take 333
+I/System.out: stream take 334
+I/System.out: stream take 335
+I/System.out: stream take 336
+I/System.out: stream take 337
+I/System.out: stream take 338
+I/System.out: stream take 339
+I/System.out: stream take 340
+I/System.out: stream take 341
+I/System.out: stream take 342
+I/System.out: stream take 343
+I/System.out: stream take 344
+I/System.out: stream take 345
+I/System.out: stream take 346
+I/System.out: stream take 347
+I/System.out: stream take 348
+I/System.out: stream take 349
+I/System.out: stream take 350
+I/System.out: stream take 351
+I/System.out: stream take 352
+I/System.out: stream take 353
+I/System.out: stream take 354
+I/System.out: stream take 355
+I/System.out: stream take 356
+I/System.out: stream take 357
+I/System.out: stream take 358
+I/System.out: stream take 359
+I/System.out: stream take 360
+I/System.out: stream take 361
+I/System.out: stream take 362
+I/System.out: stream take 363
+I/System.out: stream take 364
+I/System.out: stream take 365
+I/System.out: stream take 366
+I/System.out: stream take 367
+I/System.out: stream take 368
+I/System.out: stream take 369
+I/System.out: stream take 370
+I/System.out: stream take 371
+I/System.out: stream take 372
+I/System.out: stream take 373
+I/System.out: stream take 374
+I/System.out: stream take 375
+I/System.out: stream take 376
+I/System.out: stream take 377
+I/System.out: stream take 378
+I/System.out: stream take 379
+I/System.out: stream take 380
+I/System.out: stream take 381
+I/System.out: stream take 382
+I/System.out: stream take 383
+I/System.out: stream take 384
+I/System.out: stream take 385
+I/System.out: stream take 386
+I/System.out: stream take 387
+I/System.out: stream take 388
+I/System.out: stream take 389
+I/System.out: stream take 390
+I/System.out: stream take 391
+I/System.out: stream take 392
+I/System.out: stream take 393
+I/System.out: stream take 394
+I/System.out: stream take 395
+I/System.out: stream take 396
+I/System.out: stream take 397
+I/System.out: stream take 398
+I/System.out: stream take 399
+I/System.out: stream take 400
+I/System.out: stream take 401
+I/System.out: stream take 402
+I/System.out: stream take 403
+I/System.out: stream take 404
+I/System.out: stream take 405
+I/System.out: stream take 406
+I/System.out: stream take 407
+I/System.out: stream take 408
+I/System.out: stream take 409
+I/System.out: stream take 410
+I/System.out: stream take 411
+I/System.out: stream take 412
+I/System.out: stream take 413
+I/System.out: stream take 414
+I/System.out: stream take 415
+I/System.out: stream take 416
+I/System.out: stream take 417
+I/System.out: stream take 418
+I/System.out: stream take 419
+I/System.out: stream take 420
+I/System.out: stream take 421
+I/System.out: stream take 422
+I/System.out: stream take 423
+I/System.out: stream take 424
+I/System.out: stream take 425
+I/System.out: stream take 426
+I/System.out: stream take 427
+I/System.out: stream take 428
+I/System.out: stream take 429
+I/System.out: stream take 430
+I/System.out: stream take 431
+I/System.out: stream take 432
+I/System.out: stream take 433
+I/System.out: stream take 434
+I/System.out: stream take 435
+I/System.out: stream take 436
+I/System.out: stream take 437
+I/System.out: stream take 438
+I/System.out: stream take 439
+I/System.out: stream take 440
+I/System.out: stream take 441
+I/System.out: stream take 442
+I/System.out: stream take 443
+I/System.out: stream take 444
+I/System.out: stream take 445
+I/System.out: stream take 446
+I/System.out: stream take 447
+I/System.out: stream take 448
+I/System.out: stream take 449
+I/System.out: stream take 450
+I/System.out: stream take 451
+I/System.out: stream take 452
+I/System.out: stream take 453
+I/System.out: stream take 454
+I/System.out: stream take 455
+I/System.out: stream take 456
+I/System.out: stream take 457
+I/System.out: stream take 458
+I/System.out: stream take 459
+I/System.out: stream take 460
+I/System.out: stream take 461
+I/System.out: stream take 462
+I/System.out: stream take 463
+I/System.out: stream take 464
+I/System.out: stream take 465
+I/System.out: stream take 466
+I/System.out: stream take 467
+I/System.out: stream take 468
+I/System.out: stream take 469
+I/System.out: stream take 470
+I/System.out: stream take 471
+I/System.out: stream take 472
+I/System.out: stream take 473
+I/System.out: stream take 474
+I/System.out: stream take 475
+I/System.out: stream take 476
+I/System.out: stream take 477
+I/System.out: stream take 478
+I/System.out: stream take 479
+I/System.out: stream take 480
+I/System.out: stream take 481
+I/System.out: stream take 482
+I/System.out: stream take 483
+I/System.out: stream take 484
+I/System.out: stream take 485
+I/System.out: stream take 486
+I/System.out: stream take 487
+I/System.out: stream take 488
+I/System.out: stream take 489
+I/System.out: stream take 490
+I/System.out: stream take 491
+I/System.out: stream take 492
+I/System.out: stream take 493
+I/System.out: stream take 494
+I/System.out: stream take 495
+I/System.out: stream take 496
+I/System.out: stream take 497
+I/System.out: stream take 498
+I/System.out: stream take 499
+I/System.out: stream take 500
+I/System.out: stream take 501
+I/System.out: stream take 502
+I/System.out: stream take 503
+I/System.out: stream take 504
+I/System.out: stream take 505
+I/System.out: stream take 506
+I/System.out: stream take 507
+I/System.out: stream take 508
+I/System.out: stream take 509
+I/System.out: stream take 510
+I/System.out: stream take 511
+I/System.out: stream take 512
+I/System.out: stream take 513
+I/System.out: stream take 514
+I/System.out: stream take 515
+I/System.out: stream take 516
+I/System.out: stream take 517
+I/System.out: stream take 518
+I/System.out: stream take 519
+I/System.out: stream take 520
+I/System.out: stream take 521
+I/System.out: stream take 522
+I/System.out: stream take 523
+I/System.out: stream take 524
+I/System.out: stream take 525
+I/System.out: stream take 526
+I/System.out: stream take 527
+I/System.out: stream take 528
+I/System.out: stream take 529
+I/System.out: stream take 530
+I/System.out: stream take 531
+I/System.out: stream take 532
+I/System.out: stream take 533
+I/System.out: stream take 534
+I/System.out: stream take 535
+I/System.out: stream take 536
+I/System.out: stream take 537
+I/System.out: stream take 538
+I/System.out: stream take 539
+I/System.out: stream take 540
+I/System.out: stream take 541
+I/System.out: stream take 542
+I/System.out: stream take 543
+I/System.out: stream take 544
+I/System.out: stream take 545
+I/System.out: stream take 546
+I/System.out: stream take 547
+I/System.out: stream take 548
+I/System.out: stream take 549
+I/System.out: stream take 550
+I/System.out: stream take 551
+I/System.out: stream take 552
+I/System.out: stream take 553
+I/System.out: stream take 554
+I/System.out: stream take 555
+I/System.out: stream take 556
+I/System.out: stream take 557
+I/System.out: stream take 558
+I/System.out: stream take 559
+I/System.out: stream take 560
+I/System.out: stream take 561
+I/System.out: stream take 562
+I/System.out: stream take 563
+I/System.out: stream take 564
+I/System.out: stream take 565
+I/System.out: stream take 566
+I/System.out: stream take 567
+I/System.out: stream take 568
+I/System.out: stream take 569
+I/System.out: stream take 570
+I/System.out: stream take 571
+I/System.out: stream take 572
+I/System.out: stream take 573
+I/System.out: stream take 574
+I/System.out: stream take 575
+I/System.out: stream take 576
+I/System.out: stream take 577
+I/System.out: stream take 578
+I/System.out: stream take 579
+I/System.out: stream take 580
+I/System.out: stream take 581
+I/System.out: stream take 582
+I/System.out: stream take 583
+I/System.out: stream take 584
+I/System.out: stream take 585
+I/System.out: stream take 586
+I/System.out: stream take 587
+I/System.out: stream take 588
+I/System.out: stream take 589
+I/System.out: stream take 590
+I/System.out: stream take 591
+I/System.out: stream take 592
+I/System.out: stream take 593
+I/System.out: stream take 594
+I/System.out: stream take 595
+I/System.out: stream take 596
+I/System.out: stream take 597
+I/System.out: stream take 598
+I/System.out: stream take 599
